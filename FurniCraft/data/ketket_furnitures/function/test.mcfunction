@@ -1,0 +1,11 @@
+loot give @s loot ketket_furnitures:chairs/chair1/oak
+loot give @s loot ketket_furnitures:chairs/chair1/acacia
+loot give @s loot ketket_furnitures:chairs/chair1/bamboo
+loot give @s loot ketket_furnitures:chairs/chair1/birch
+loot give @s loot ketket_furnitures:chairs/chair1/cherry
+loot give @s loot ketket_furnitures:chairs/chair1/crimson
+loot give @s loot ketket_furnitures:chairs/chair1/darkoak
+loot give @s loot ketket_furnitures:chairs/chair1/jungle
+loot give @s loot ketket_furnitures:chairs/chair1/mangrove
+loot give @s loot ketket_furnitures:chairs/chair1/spruce
+loot give @s loot ketket_furnitures:chairs/chair1/warped

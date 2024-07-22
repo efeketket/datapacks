@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:bamboo"
+        }
+    },
+    "result": {
+        "id": "minecraft:player_head",
+        "count": 1,
+        "components": {
+          "minecraft:profile": {
+              "id": [
+                1898938705,543443055,-1284193389,915710094
+              ],
+              "properties": [
+                  {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2M1ZDc5ZTA1MjAxOWVjYjJjNmYyZjAwMTczYzhkMTBhOTFjNzQ0NmFhYjdkYTMwNGY2YjUxMTkwZjIxMzk2OSJ9fX0="
+                  }
+              ]
+          },
+          "item_name": "{\"text\":\"Compressed Bamboo\",\"color\":\"white\",\"bold\":false,\"italic\":false}",
+          "minecraft:custom_data": {"stackraft":1}
+        }
+    }
+}
