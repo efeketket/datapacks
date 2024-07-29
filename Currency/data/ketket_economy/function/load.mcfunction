@@ -1,3 +1,6 @@
+tellraw @a ["","[",{"text":"Currency v1.0","color":"gold"},"] ",{"text":"Datapack has been reloaded. Check if there is a new version available. ","color":"green"},{"text":"-> Modrinth","color":"white","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/ketkets-furnicraft"}}]
+
+
 scoreboard objectives add balance dummy
 scoreboard objectives add checker dummy
 scoreboard objectives add balance_numcount dummy

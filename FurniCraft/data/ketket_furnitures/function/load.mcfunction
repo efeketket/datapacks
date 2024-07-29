@@ -1,3 +1,5 @@
+tellraw @a ["","[",{"text":"FurniCraft v4.1","color":"gold"},"] ",{"text":"Datapack has been reloaded. Check if there is a new version available. ","color":"green"},{"text":"-> Modrinth","color":"white","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/ketkets-furnicraft"}}]
+
 #> scoreboards
 scoreboard objectives add Sneaking_ch minecraft.custom:minecraft.sneak_time
 scoreboard objectives add woodcount dummy
@@ -26,4 +28,3 @@ data modify storage minecraft:colorholder color set value {red:{carpet:"red_carp
 #> carpenterbench block update
 execute as @e[tag=furniture,type=block_display,tag=benchmain] at @s if block ~ ~ ~ minecraft:chest run setblock ~ ~ ~ minecraft:trapped_chest{CustomName:'[{"text":"Carpenter Bench"}]'} replace 
 
-tellraw @a ["","[",{"text":"FurniCraft v4.0","color":"gold"},"] ",{"text":"Datapack has been reloaded. Check if there is a new version available. ","color":"green"},{"text":"-> Modrinth","color":"white","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/ketkets-furnicraft"}}]

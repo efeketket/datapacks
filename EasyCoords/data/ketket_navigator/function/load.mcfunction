@@ -1,3 +1,6 @@
+tellraw @a ["","[",{"text":"EasyCoords v1.1","color":"gold"},"] ",{"text":"Datapack has been reloaded. Check if there is a new version available. ","color":"green"},{"text":"-> Modrinth","color":"white","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/ketkets-furnicraft"}}]
+
+
 kill @e[tag=daycounter]
 summon minecraft:marker ~ ~200 ~ {Tags:["daycounter"]}
 
