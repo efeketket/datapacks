@@ -15,6 +15,7 @@ execute as @s[tag=table] run particle block{block_state:"minecraft:oak_planks"} 
 execute as @s[tag=table1] run function ketket_furnitures:remover/tables/table1
 execute as @s[tag=table2] positioned ~ ~0.7 ~ run function ketket_furnitures:remover/tables/table2
 execute as @s[tag=table3] run function ketket_furnitures:remover/tables/table3
+execute as @s[tag=table4] run function ketket_furnitures:remover/tables/table4
 
 execute as @s[tag=rack] run particle block{block_state:"minecraft:oak_planks"} ~ ~0.2 ~ 0 0 0 1 25
 execute as @s[tag=rack1] run function ketket_furnitures:remover/racks/rack1

@@ -11,6 +11,7 @@ execute if data block ~ ~1 ~ components."minecraft:custom_data"{chair6wooled:1b}
 execute if data block ~ ~1 ~ components."minecraft:custom_data"{table1:1b} run function ketket_furnitures:place/tables/table1/table1
 execute if data block ~ ~1 ~ components."minecraft:custom_data"{table2:1b} run function ketket_furnitures:place/tables/table2/table2
 execute if data block ~ ~1 ~ components."minecraft:custom_data"{table3:1b} run function ketket_furnitures:place/tables/table3
+execute if data block ~ ~1 ~ components."minecraft:custom_data"{table4:1b} run function ketket_furnitures:place/tables/table4/table4
 
 execute if data block ~ ~1 ~ components."minecraft:custom_data"{rack1:1b} run function ketket_furnitures:place/racks/rack1
 
