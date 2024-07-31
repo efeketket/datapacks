@@ -1,11 +1,11 @@
 {
     "pack": {
-        "name": "Stackraft",
+        "name": "Backpacks",
         "id": "0",
         "pack_format": 48,
         "authors": [
             "efeketket"
         ],
-        "description": "§6§lKetket's§e Stackraft§r\n§7Only work with +1.21"
+        "description": "§6§lKetket's§e Backpacks§r\n§7Only work with +1.21"
     }
 }
