@@ -1,4 +1,3 @@
-tag @s add founded
 function ketket_furnitures:interaction/changetype/settag
 
 execute as @e[type=interaction,limit=1,nbt={interaction:{}},sort=nearest] run tag @s add acacia
