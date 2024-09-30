@@ -33,7 +33,7 @@
                },
             {
               "function": "set_custom_data",
-              "tag": "{furniture:1b,oak:1b,chair6wooled:1b}"
+              "tag": "{furniture:1b,oak:1b,chair6wooled:1b,color:{white:1b}}"
           }
           ]
         }

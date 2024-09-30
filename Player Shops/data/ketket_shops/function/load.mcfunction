@@ -1,4 +1,4 @@
-tellraw @a ["","[",{"text":"Player Shops v2","color":"gold"},"] ",{"text":"Datapack has been reloaded. Check if there is a new version available. ","color":"green"},{"text":"-> Modrinth","color":"white","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/ketkets-player-shops/versions"}}]
+tellraw @a ["","[",{"text":"Player Shops v2.1","color":"gold"},"] ",{"text":"Datapack has been reloaded. Check if there is a new version available. ","color":"green"},{"text":"-> Modrinth","color":"white","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/ketkets-player-shops/versions"}}]
 
 scoreboard objectives add totalearn dummy
 scoreboard objectives add totalearn_msg dummy

@@ -11,6 +11,8 @@ execute as @s[tag=dropitem,tag=oak] at @s run loot spawn ~ ~ ~ loot ketket_furni
 execute as @s[tag=dropitem,tag=spruce] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair2/spruce
 execute as @s[tag=dropitem,tag=warped] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair2/warped
 
+#data modify entity @e[type=item,limit=1,sort=nearest,nbt={Item{components:{}}}] Item.components."minecraft:custom_data".color set value {black:1b}
+
 playsound minecraft:block.wood.break ambient @a[distance=..10] ~ ~ ~ 3 0
 #particle minecraft:item{item:"minecraft:chest"} -4.23 -60.00 21.34
 

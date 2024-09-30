@@ -11,6 +11,8 @@ execute at @s if data block ~ ~1 ~ components."minecraft:custom_data"{cherry:1b}
 execute at @s if data block ~ ~1 ~ components."minecraft:custom_data"{crimson:1b} run function ketket_furnitures:place/settype/crimson
 execute at @s if data block ~ ~1 ~ components."minecraft:custom_data"{warped:1b} run function ketket_furnitures:place/settype/warped
 
+execute at @s if data block ~ ~1 ~ components."minecraft:custom_data"{red:1b} run function ketket_furnitures:place/settype/color/red
+
 execute as @e[tag=justspawn] at @s run data modify entity @s view_range set value 0.50f
 execute as @e[tag=justspawn] run tag @s remove justspawn
 setblock ~ ~1 ~ minecraft:air

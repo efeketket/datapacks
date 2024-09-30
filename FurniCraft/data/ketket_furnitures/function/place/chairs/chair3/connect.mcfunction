@@ -1,5 +1,3 @@
-say hi
-
 execute as @s[tag=north] at @s positioned ~1 ~ ~ if entity @e[type=interaction,distance=..0.7,tag=north,tag=chair3,tag=furniture] run kill @e[distance=..1,tag=sol]
 execute as @s[tag=north] at @s positioned ~1 ~ ~ if entity @e[type=interaction,distance=..0.7,tag=north,tag=chair3,tag=furniture] run execute positioned ~-1 ~ ~ run kill @e[distance=..1,tag=sag]
 

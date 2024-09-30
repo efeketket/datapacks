@@ -1,4 +1,4 @@
-tellraw @a ["","[",{"text":"EasyCoords v1.1","color":"gold"},"] ",{"text":"Datapack has been reloaded. Check if there is a new version available. ","color":"green"},{"text":"-> Modrinth","color":"white","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/ketkets-furnicraft"}}]
+tellraw @a ["","[",{"text":"EasyCoords v1","color":"gold"},"] ",{"text":"Datapack has been reloaded. Check if there is a new version available. ","color":"green"},{"text":"-> Modrinth","color":"white","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/easycoords"}}]
 
 
 kill @e[tag=daycounter]
@@ -26,6 +26,24 @@ scoreboard players set #7 num 7
 
 scoreboard objectives add daycounter_k dummy
 scoreboard objectives add daytime_k dummy
+
+
+scoreboard objectives add start.timer trigger
+scoreboard objectives add stop.timer trigger
+
+scoreboard objectives add start.cronometer trigger
+
+scoreboard objectives add kk.seconds0 dummy
+scoreboard objectives add kk.seconds1 dummy
+
+scoreboard objectives add kk.minutes0 dummy
+scoreboard objectives add kk.minutes1 dummy
+
+scoreboard objectives add kk.hours0 dummy
+scoreboard objectives add kk.hours1 dummy
+
+scoreboard objectives add kk.ticktimer dummy
+
 
 data modify storage dimension Dimension set value [""]
 

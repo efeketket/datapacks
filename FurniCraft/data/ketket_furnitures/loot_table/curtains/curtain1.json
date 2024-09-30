@@ -36,7 +36,7 @@
                  },
               {
                 "function": "set_custom_data",
-                "tag": "{curtain1:1b,furniture:1b}"
+                "tag": "{curtain1:1b,furniture:1b,color:{white:1b}}"
             }
             ]
           }

@@ -1,4 +1,3 @@
-tag @s add this
 tag @s add lanternmenu
 execute as @s[tag=slot9] if data block ~ ~ ~ Items[{Slot:10b}] run tag @s remove this
 execute as @s[tag=slot10] if data block ~ ~ ~ Items[{Slot:9b}] run tag @s remove this

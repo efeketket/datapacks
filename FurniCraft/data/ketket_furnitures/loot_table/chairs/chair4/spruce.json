@@ -17,7 +17,7 @@
                 "italic": false
               },
               "entity": "this"
-            },     
+            },
             {
                    "function": "set_components",
                    "components": {
@@ -36,7 +36,7 @@
                },
             {
               "function": "set_custom_data",
-              "tag": "{furniture:1b,chair4:1b,spruce:1b}"
+              "tag": "{furniture:1b,chair4:1b,spruce:1b,color:{white:1b}}"
           }
           ]
         }
