@@ -7,10 +7,11 @@ loot replace block ~ ~ ~ container.7 loot ketket_furnitures:tables/table2/warped
 loot replace block ~ ~ ~ container.8 loot ketket_furnitures:tables/table3/warped
 loot replace block ~ ~ ~ container.12 loot ketket_furnitures:tables/table4/warped
 loot replace block ~ ~ ~ container.13 loot ketket_furnitures:cabinets/cabinet2/warped
-loot replace block ~ ~ ~ container.14 loot ketket_furnitures:chairs/chair6/warped
-loot replace block ~ ~ ~ container.15 loot ketket_furnitures:racks/rack1/warped
-execute as @s[tag=woolon] run loot replace block ~ ~ ~ container.16 loot ketket_furnitures:chairs/chair6/wooled/warped
-execute as @s[tag=woolon] run loot replace block ~ ~ ~ container.17 loot ketket_furnitures:chairs/chair4/warped
-execute as @s[tag=woolon] run loot replace block ~ ~ ~ container.21 loot ketket_furnitures:chairs/chair3
-execute as @s[tag=woolon] run loot replace block ~ ~ ~ container.22 loot ketket_furnitures:curtains/curtain1
-execute as @s[tag=woolon] run loot replace block ~ ~ ~ container.23 loot ketket_furnitures:curtains/curtain2
+loot replace block ~ ~ ~ container.14 loot ketket_furnitures:cabinets/cabinet3/warped
+loot replace block ~ ~ ~ container.15 loot ketket_furnitures:chairs/chair6/warped
+loot replace block ~ ~ ~ container.16 loot ketket_furnitures:racks/rack1/warped
+execute as @s[tag=woolon] run loot replace block ~ ~ ~ container.17 loot ketket_furnitures:chairs/chair6/wooled/warped
+execute as @s[tag=woolon] run loot replace block ~ ~ ~ container.21 loot ketket_furnitures:chairs/chair4/warped
+execute as @s[tag=woolon] run loot replace block ~ ~ ~ container.22 loot ketket_furnitures:chairs/chair3
+execute as @s[tag=woolon] run loot replace block ~ ~ ~ container.23 loot ketket_furnitures:curtains/curtain1
+execute as @s[tag=woolon] run loot replace block ~ ~ ~ container.24 loot ketket_furnitures:curtains/curtain2

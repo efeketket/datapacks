@@ -1,4 +1,6 @@
-tellraw @a ["","[",{"text":"FurniCraft v4.3","color":"gold"},"] ",{"text":"Datapack has been reloaded. Check if there is a new version available. ","color":"green"},{"text":"-> Modrinth","color":"white","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/ketkets-furnicraft"}}]
+execute as @e[type=block_display,tag=furniture] run data modify entity @s view_range set value 0.7f
+
+tellraw @a ["","[",{"text":"FurniCraft v4.4","color":"gold"},"] ",{"text":"Datapack has been reloaded. Check if there is a new version available. ","color":"green"},{"text":"-> Modrinth","color":"white","clickEvent":{"action":"open_url","value":"https://modrinth.com/datapack/ketkets-furnicraft"}}]
 
 #> scoreboards
 scoreboard objectives add Sneaking_ch minecraft.custom:minecraft.sneak_time
