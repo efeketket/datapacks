@@ -6,9 +6,7 @@
         "###"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:blaze_rod"
-        }
+        "#": ["minecraft:sugar_cane"]
     },
     "result": {
         "id": "minecraft:player_head",
@@ -16,16 +14,16 @@
         "components": {
           "minecraft:profile": {
               "id": [
-                -1090068770,1447773038,-1785439622,1344557054
+                -1670403632,-1494988923,-1579692282,1405160319
               ],
               "properties": [
                   {
                       "name": "textures",
-                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiMWI5Y2UyZTlhNmNlOGE5ODVkMzk3NzZlMjkwODA3N2I4MmU2YTMzM2QyYTgxYTQ0MTQzOGVhYjM5ZjhlMSJ9fX0="
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWM0ZmM2NTI4M2E0MDY5OTllNzIxNTA4NjFkMWZjMmE3NmE4MWQ3NjJiYjI3Yzc3NmFiNGM0OWE0MzIwYjViOSJ9fX0="
                   }
               ]
           },
-          "item_name": "{\"text\":\"Compressed Blaze Rod\",\"color\":\"white\",\"bold\":false,\"italic\":false}",
+          "minecraft:item_name": "{\"text\":\"Compressed Sugar Cane\",\"color\":\"white\",\"bold\":false,\"italic\":false}",
           "minecraft:custom_data": {"stackraft":1}
         }
     }

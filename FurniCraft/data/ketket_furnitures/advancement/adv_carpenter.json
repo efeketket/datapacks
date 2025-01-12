@@ -11,8 +11,11 @@
   },
   "parent": "ketket_furnitures:adv_main",
   "criteria": {
-    "requirement": {
-      "trigger": "minecraft:impossible"
+    "craft_carpenter_bench": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+          "recipe_id": "ketket_furnitures:carpenter_bench"
+        }
+      }
     }
-  }
 }

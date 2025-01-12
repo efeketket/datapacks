@@ -14,4 +14,8 @@ scoreboard players set @e[type=player,scores={isPlaced=2..}] isPlaced 0
 scoreboard players set @e[type=player,scores={Sneaking_ch=1..}] Sneaking_ch 0
 scoreboard players set @e[type=player,scores={fc.bench_triggered=1..}] fc.bench_triggered 0
 
+##> trigger
+scoreboard players enable @a[gamemode=creative] getcatalog
+execute as @a[gamemode=creative] unless score @s getcatalog matches 0 run function ketket_furnitures:catalog/getcatalog
+
 execute as @a run function ketket_furnitures:clearitems

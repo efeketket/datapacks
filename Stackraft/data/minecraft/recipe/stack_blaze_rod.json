@@ -6,9 +6,7 @@
         "###"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:beetroot"
-        }
+        "#": ["minecraft:blaze_rod"]
     },
     "result": {
         "id": "minecraft:player_head",
@@ -16,16 +14,16 @@
         "components": {
           "minecraft:profile": {
               "id": [
-                1946302913,235456678,-1143378508,857968663
+                -1090068770,1447773038,-1785439622,1344557054
               ],
               "properties": [
                   {
                       "name": "textures",
-                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMThmMzZlYTIyOGM0ZmQ5YWZlZDVhZGQ2ZDA1MjZkZTcxYjdhYzA1NTllYWJmYzJmNjBkZTZjNGFhNzMzZjUifX19"
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiMWI5Y2UyZTlhNmNlOGE5ODVkMzk3NzZlMjkwODA3N2I4MmU2YTMzM2QyYTgxYTQ0MTQzOGVhYjM5ZjhlMSJ9fX0="
                   }
               ]
           },
-          "item_name": "{\"text\":\"Compressed Beetroot\",\"color\":\"white\",\"bold\":false,\"italic\":false}",
+          "minecraft:item_name": "{\"text\":\"Compressed Blaze Rod\",\"color\":\"white\",\"bold\":false,\"italic\":false}",
           "minecraft:custom_data": {"stackraft":1}
         }
     }

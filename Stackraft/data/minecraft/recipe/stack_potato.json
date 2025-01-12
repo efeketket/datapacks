@@ -6,9 +6,7 @@
         "###"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:potato"
-        }
+        "#": ["minecraft:potato"]
     },
     "result": {
         "id": "minecraft:player_head",
@@ -25,7 +23,7 @@
                   }
               ]
           },
-          "item_name": "{\"text\":\"Compressed Potato\",\"color\":\"white\",\"bold\":false,\"italic\":false}",
+          "minecraft:item_name": "{\"text\":\"Compressed Potato\",\"color\":\"white\",\"bold\":false,\"italic\":false}",
           "minecraft:custom_data": {"stackraft":1}
         }
     }

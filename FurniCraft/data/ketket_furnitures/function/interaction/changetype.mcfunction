@@ -29,6 +29,11 @@ execute if data entity @s SelectedItem{id:"minecraft:jungle_wood"} run return ru
 execute if data entity @s SelectedItem{id:"minecraft:stripped_jungle_wood"} run return run function ketket_furnitures:interaction/changetype/jungle
 execute if data entity @s SelectedItem{id:"minecraft:stripped_jungle_log"} run return run function ketket_furnitures:interaction/changetype/jungle
 
+execute if data entity @s SelectedItem{id:"minecraft:pale_oak_log"} run return run function ketket_furnitures:interaction/changetype/pale_oak
+execute if data entity @s SelectedItem{id:"minecraft:pale_oak_wood"} run return run function ketket_furnitures:interaction/changetype/pale_oak
+execute if data entity @s SelectedItem{id:"minecraft:stripped_pale_oak_wood"} run return run function ketket_furnitures:interaction/changetype/pale_oak
+execute if data entity @s SelectedItem{id:"minecraft:stripped_pale_oak_log"} run return run function ketket_furnitures:interaction/changetype/pale_oak
+
 execute if data entity @s SelectedItem{id:"minecraft:cherry_log"} run return run function ketket_furnitures:interaction/changetype/cherry
 execute if data entity @s SelectedItem{id:"minecraft:cherry_wood"} run return run function ketket_furnitures:interaction/changetype/cherry
 execute if data entity @s SelectedItem{id:"minecraft:stripped_cherry_wood"} run return run function ketket_furnitures:interaction/changetype/cherry
